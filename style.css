@@ -96,6 +96,52 @@ body {
   font-size: 20px;
   padding-right: 5px;
 }
+/* newYearResolutions styles */
+.newYearResolutions {
+  padding: 100px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.personImg {
+  width: 500px;
+}
+
+.personImg2 img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.newYearTextBox {
+  width: 400px;
+}
+
+.newYearTitle {
+  font-size: 40px;
+}
+
+.newYearDescription {
+  margin-top: 24px;
+  font-size: 16px;
+  line-height: 26px;
+  width: 370px;
+}
+
+.newYearPoints {
+  margin-top: 5px;
+}
+
+.newYearPointText {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.icon {
+  color: rgb(27, 213, 27);
+  font-size: 20px;
+  padding-right: 5px;
+}
 
 /* myPlans styles  */
 .myPlans {
@@ -131,9 +177,6 @@ body {
   font-weight: 700;
   font-size: 30px;
   margin: 25px 0 10px 0;
-}
-
-.myPlanTopicDesc {
 }
 
 .myPlanMindsetSection {
