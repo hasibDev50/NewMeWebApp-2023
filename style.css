@@ -5,6 +5,7 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+/* topBanner styles */
 .topBanner {
   width: 100%;
   height: 800px;
@@ -48,4 +49,50 @@ body {
   border: none;
   border-radius: 5px;
   margin-top: 32px;
+}
+
+/* prevYearFailures styles */
+.prevYearFailures {
+  padding: 100px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.personImg {
+  width: 500px;
+}
+
+.personImg img {
+  width: 100%;
+}
+
+.prevYearTextBox {
+  width: 400px;
+}
+
+.prevYearTitle {
+  font-size: 40px;
+}
+
+.prevYearDescription {
+  margin-top: 24px;
+  font-size: 16px;
+  line-height: 26px;
+  width: 370px;
+}
+
+.prevYearPoints {
+  margin-top: 5px;
+}
+
+.prevYearPointText {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.icon {
+  color: rgb(27, 213, 27);
+  font-size: 20px;
+  padding-right: 5px;
 }
