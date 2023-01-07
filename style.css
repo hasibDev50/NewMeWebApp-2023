@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.topBanner {
+  width: 100%;
+  height: 800px;
+  background-image: url('assets/images/banner/banner2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.topBannerTextArea {
+  width: 1024px;
+  padding-right: 50px;
+}
+
+.topBannerTextBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.topBannerTitle {
+  font-weight: 700;
+  font-size: 60px;
+}
+
+.topBannerDescription {
+  width: 450px;
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 24px;
+  text-align: right;
+}
+
+.topBannerButton {
+  width: 150px;
+  color: white;
+  background-color: orangered;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 32px;
+}
