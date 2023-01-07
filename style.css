@@ -96,3 +96,165 @@ body {
   font-size: 20px;
   padding-right: 5px;
 }
+
+/* myPlans styles  */
+.myPlans {
+  padding: 100px;
+}
+.myPlanTitle {
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+}
+.myPlanIconSection {
+  width: 1000px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.myPlanTopic {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.myPlanTopicIcon {
+  width: 92px;
+  height: 92px;
+}
+
+.myPlanTopicTitle {
+  font-weight: 700;
+  font-size: 30px;
+  margin: 25px 0 10px 0;
+}
+
+.myPlanTopicDesc {
+}
+
+.myPlanMindsetSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.myPlanMindsetSectionContainer {
+  width: 1000px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.myPlanMindset {
+  width: 1000px;
+  height: 300px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 16, 126, 1) 0%,
+    rgba(47, 47, 215, 1) 18%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  border-radius: 10px;
+}
+
+.myPlanMindsetTitle {
+  margin: 50px 0 0 65px;
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+  width: 500px;
+}
+
+.myPlanMindsetBtn {
+  padding: 10px 25px;
+  color: orangered;
+  background-color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  margin: 30px 0 0 65px;
+}
+
+/* footer styles */
+.footer {
+  background-color: #151414;
+  color: #ffffff;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.footerContent {
+  width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerText {
+  width: 485px;
+}
+
+.footerTextTitle {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.footerTextDescription {
+  width: 450px;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 16px 0 24px 0;
+  line-height: 26px;
+}
+
+.footerTextContact {
+  margin: 16px 0 32px 0;
+}
+
+.footerTextSocial {
+  display: flex;
+  gap: 15px;
+}
+
+.footerTextSocial img {
+  width: 46px;
+  height: 46px;
+}
+
+.footerContact {
+  display: flex;
+  flex-direction: column;
+}
+
+.footerContactTitle {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.emailBox {
+  color: #ffffff;
+  background-color: #151414;
+  padding: 10px 5px;
+  width: 300px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin: 20px 0 15px 0;
+}
+
+.subscribeBtn {
+  width: 120px;
+  padding: 10px 25px;
+  color: orangered;
+  background-color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+}
